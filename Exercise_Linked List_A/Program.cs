@@ -42,5 +42,11 @@ namespace Exercise_Linked_List_A
             else
                 return false;
         }
+
+        public void traverse()/*Traverses all the nodes of the list*/
+        {
+           
+
+        }
     }
 }
