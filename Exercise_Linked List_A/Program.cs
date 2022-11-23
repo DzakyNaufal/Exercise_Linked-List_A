@@ -86,7 +86,11 @@ namespace Exercise_Linked_List_A
                     char ch = Convert.ToChar(Console.ReadLine());
                     switch (ch)
                     {
-                        
+                        case '1':
+                            {
+                                obj.traverse();
+                            }
+                            break;
                     }
                 }
                 catch (Exception e)
