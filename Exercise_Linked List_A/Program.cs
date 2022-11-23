@@ -117,6 +117,15 @@ namespace Exercise_Linked_List_A
                                 obj.firstNode();
                             }
                             break;
+                        case '4':
+                            {
+                                return;
+                            }
+                        default:
+                            {
+                                Console.WriteLine("Invalid Option"); 
+                                break;
+                            }
                     }
                 }
                 catch (Exception e)
