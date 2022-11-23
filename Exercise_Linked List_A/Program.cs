@@ -75,7 +75,19 @@ namespace Exercise_Linked_List_A
             CircularList obj = new CircularList();
             while (true)
             {
-
+                try
+                {
+                    Console.WriteLine("\nMenu");
+                    Console.WriteLine("1. View all the records in the list");
+                    Console.WriteLine("2. Search for a record in the list");
+                    Console.WriteLine("3. Display the first record in the list");
+                    Console.WriteLine("4. Exit");
+                    Console.WriteLine("\nEnter your choice (1-4): ");
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.ToString());
+                }
             }
         }
     }
