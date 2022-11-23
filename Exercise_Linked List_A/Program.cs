@@ -83,6 +83,11 @@ namespace Exercise_Linked_List_A
                     Console.WriteLine("3. Display the first record in the list");
                     Console.WriteLine("4. Exit");
                     Console.WriteLine("\nEnter your choice (1-4): ");
+                    char ch = Convert.ToChar(Console.ReadLine());
+                    switch (ch)
+                    {
+                        
+                    }
                 }
                 catch (Exception e)
                 {
